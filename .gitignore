@@ -1,0 +1,19 @@
+# LabVIEW project temporary files.
+*.aliases
+*.lvlps
+*.lvprojstate
+
+#LabVIEW builds
+[Bb]uild/
+[Bb]uilds/
+
+#Package builder
+[Pp]ackages/
+ProcessingStage/
+
+#InstrumentStudio
+*.[Cc]ache/
+
+# Executables
+*.exe
+*.tdms_index
