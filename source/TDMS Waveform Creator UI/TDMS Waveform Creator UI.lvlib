@@ -7,27 +7,44 @@
 
 </Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Control" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Std Wfm Config.ctl" Type="VI" URL="../Control/Std Wfm Config.ctl"/>
-		<Item Name="Custom Wfm Config.ctl" Type="VI" URL="../Control/Custom Wfm Config.ctl"/>
+		<Item Name="Arbitrary Wfm Config.ctl" Type="VI" URL="../Control/Arbitrary Wfm Config.ctl"/>
 	</Item>
 	<Item Name="Dialog" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Create Standard Waveform.vi" Type="VI" URL="../Dialog/Create Standard Waveform.vi"/>
 		<Item Name="Modify Standard Waveform.vi" Type="VI" URL="../Dialog/Modify Standard Waveform.vi"/>
-		<Item Name="Load Custom Waveform.vi" Type="VI" URL="../Dialog/Load Custom Waveform.vi"/>
-		<Item Name="Modify Custom Waveform.vi" Type="VI" URL="../Dialog/Modify Custom Waveform.vi"/>
+		<Item Name="Load Arbitrary Waveform.vi" Type="VI" URL="../Dialog/Load Arbitrary Waveform.vi"/>
+		<Item Name="Modify Arbitrary Waveform.vi" Type="VI" URL="../Dialog/Modify Arbitrary Waveform.vi"/>
+		<Item Name="Rename Channel.vi" Type="VI" URL="../Dialog/Rename Channel.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Add Waveform to List.vi" Type="VI" URL="../SubVIs/Add Waveform to List.vi"/>
-		<Item Name="Append Delays to Waveform.vi" Type="VI" URL="../SubVIs/Append Delays to Waveform.vi"/>
-		<Item Name="Build Std Wfm.vi" Type="VI" URL="../SubVIs/Build Std Wfm.vi"/>
-		<Item Name="Build Custom Wfm.vi" Type="VI" URL="../SubVIs/Build Custom Wfm.vi"/>
-		<Item Name="Get Json Wfm Config.vi" Type="VI" URL="../SubVIs/Get Json Wfm Config.vi"/>
-		<Item Name="Modify Waveform in List.vi" Type="VI" URL="../SubVIs/Modify Waveform in List.vi"/>
-		<Item Name="Preview Appended Waveform List.vi" Type="VI" URL="../SubVIs/Preview Appended Waveform List.vi"/>
+		<Item Name="Canvas" Type="Folder">
+			<Item Name="Add Waveform to List.vi" Type="VI" URL="../SubVIs/Add Waveform to List.vi"/>
+			<Item Name="Append Delays to Waveform.vi" Type="VI" URL="../SubVIs/Append Delays to Waveform.vi"/>
+			<Item Name="Build Std Wfm.vi" Type="VI" URL="../SubVIs/Build Std Wfm.vi"/>
+			<Item Name="Build Arbitrary Wfm.vi" Type="VI" URL="../SubVIs/Build Arbitrary Wfm.vi"/>
+			<Item Name="Get Json Wfm Config.vi" Type="VI" URL="../SubVIs/Get Json Wfm Config.vi"/>
+			<Item Name="Modify Waveform in List.vi" Type="VI" URL="../SubVIs/Modify Waveform in List.vi"/>
+			<Item Name="Preview Appended Waveform List.vi" Type="VI" URL="../SubVIs/Preview Appended Waveform List.vi"/>
+			<Item Name="Move Down Waveform in List.vi" Type="VI" URL="../SubVIs/Move Down Waveform in List.vi"/>
+			<Item Name="Move Up Waveform in List.vi" Type="VI" URL="../SubVIs/Move Up Waveform in List.vi"/>
+			<Item Name="Remove Waveform in List.vi" Type="VI" URL="../SubVIs/Remove Waveform in List.vi"/>
+			<Item Name="Flatten Wfm List.vi" Type="VI" URL="../SubVIs/Flatten Wfm List.vi"/>
+			<Item Name="Add Canvas Wfm To Save.vi" Type="VI" URL="../SubVIs/Add Canvas Wfm To Save.vi"/>
+		</Item>
+		<Item Name="Wfm Group" Type="Folder">
+			<Item Name="Remove Channel.vi" Type="VI" URL="../SubVIs/Remove Channel.vi"/>
+			<Item Name="Update Wfm Grp Ctrls.vi" Type="VI" URL="../SubVIs/Update Wfm Grp Ctrls.vi"/>
+			<Item Name="Move Chn to Wfm Canvas.vi" Type="VI" URL="../SubVIs/Move Chn to Wfm Canvas.vi"/>
+			<Item Name="Move Up Channel in Wfm Grp.vi" Type="VI" URL="../SubVIs/Move Up Channel in Wfm Grp.vi"/>
+			<Item Name="Move Down Channel in Wfm Grp.vi" Type="VI" URL="../SubVIs/Move Down Channel in Wfm Grp.vi"/>
+			<Item Name="Initialize Wfm Grp Ctrls.vi" Type="VI" URL="../SubVIs/Initialize Wfm Grp Ctrls.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
