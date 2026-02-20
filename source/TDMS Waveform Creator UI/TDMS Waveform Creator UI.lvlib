@@ -34,7 +34,7 @@
 			<Item Name="Move Down Waveform in List.vi" Type="VI" URL="../SubVIs/Move Down Waveform in List.vi"/>
 			<Item Name="Move Up Waveform in List.vi" Type="VI" URL="../SubVIs/Move Up Waveform in List.vi"/>
 			<Item Name="Remove Waveform in List.vi" Type="VI" URL="../SubVIs/Remove Waveform in List.vi"/>
-			<Item Name="Flatten Wfm List.vi" Type="VI" URL="../SubVIs/Flatten Wfm List.vi"/>
+			<Item Name="Cascade Wfm List.vi" Type="VI" URL="../SubVIs/Cascade Wfm List.vi"/>
 			<Item Name="Add Canvas Wfm To Save.vi" Type="VI" URL="../SubVIs/Add Canvas Wfm To Save.vi"/>
 		</Item>
 		<Item Name="Wfm Group" Type="Folder">
