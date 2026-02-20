@@ -36,6 +36,7 @@
 			<Item Name="Remove Waveform in List.vi" Type="VI" URL="../SubVIs/Remove Waveform in List.vi"/>
 			<Item Name="Cascade Wfm List.vi" Type="VI" URL="../SubVIs/Cascade Wfm List.vi"/>
 			<Item Name="Add Canvas Wfm To Save.vi" Type="VI" URL="../SubVIs/Add Canvas Wfm To Save.vi"/>
+			<Item Name="Move Waveform in List.vi" Type="VI" URL="../SubVIs/Move Waveform in List.vi"/>
 		</Item>
 		<Item Name="Wfm Group" Type="Folder">
 			<Item Name="Remove Channel.vi" Type="VI" URL="../SubVIs/Remove Channel.vi"/>
@@ -44,6 +45,7 @@
 			<Item Name="Move Up Channel in Wfm Grp.vi" Type="VI" URL="../SubVIs/Move Up Channel in Wfm Grp.vi"/>
 			<Item Name="Move Down Channel in Wfm Grp.vi" Type="VI" URL="../SubVIs/Move Down Channel in Wfm Grp.vi"/>
 			<Item Name="Initialize Wfm Grp Ctrls.vi" Type="VI" URL="../SubVIs/Initialize Wfm Grp Ctrls.vi"/>
+			<Item Name="Move Channel in Wfm Grp.vi" Type="VI" URL="../SubVIs/Move Channel in Wfm Grp.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
