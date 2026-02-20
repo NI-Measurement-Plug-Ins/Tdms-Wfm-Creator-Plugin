@@ -37,6 +37,8 @@
 			<Item Name="Cascade Wfm List.vi" Type="VI" URL="../SubVIs/Cascade Wfm List.vi"/>
 			<Item Name="Add Canvas Wfm To Save.vi" Type="VI" URL="../SubVIs/Add Canvas Wfm To Save.vi"/>
 			<Item Name="Move Waveform in List.vi" Type="VI" URL="../SubVIs/Move Waveform in List.vi"/>
+			<Item Name="Load Tdms Wfm By Index.vi" Type="VI" URL="../SubVIs/Load Tdms Wfm By Index.vi"/>
+			<Item Name="Load Tdm Wfm By Index.vi" Type="VI" URL="../SubVIs/Load Tdm Wfm By Index.vi"/>
 		</Item>
 		<Item Name="Wfm Group" Type="Folder">
 			<Item Name="Remove Channel.vi" Type="VI" URL="../SubVIs/Remove Channel.vi"/>
