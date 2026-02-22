@@ -15,15 +15,15 @@ Canvas refers to the graphs and controls on the upper pane. You draft and edit i
 
 As shown below, specify the total duration and overall sample rate in the Canvas. When you right-click the `Waveform List` table to add a standard or arbitrary waveform, a dialog will prompt you to configure the waveform. 
 
-![](picture\RightClickAddWaveforms.png)
+![](picture/RightClickAddWaveforms.png)
 
 *Right-click the `Waveform List` to add a waveform*
 
-![Add standard waveform](picture\AddStdWfm.png)
+![Add standard waveform](picture/AddStdWfm.png)
 
 *Create Standard Waveform Dialog. Set Pre or Post Delay to add zeros before or after the waveform*
 
-![Add arbitrary waveform](picture\AddArbWfm.png)
+![Add arbitrary waveform](picture/AddArbWfm.png)
 
 *Create Arbitrary Waveform Dialog. Change the `Read From Row/Wfm Index` to select the row to start (CSV) or waveform to read (TDMS and TDM). Uncheck `Suggest Naming?` to use a custom waveform name instead of the file name.*
 
@@ -40,10 +40,10 @@ The [TDMS file format](https://www.ni.com/en/support/documentation/supplemental/
 
 The waveforms added from the Canvas will be added as new `Channel`s. You must ensure there are no repeated `Channel` names. 
 
-![alt text](picture\WfmGroupToSave.png)
+![alt text](picture/WfmGroupToSave.png)
 
 You can right-click an item in the Channel to rename, edit in Canvas, remove, or move up or down. 
-![alt text](picture\RightClickChannel.png)
+![alt text](picture/RightClickChannel.png)
 
 If you specify an existing TDMS file, the **RUN** action will behave differently depending on the `Run Action` selected: 
  
