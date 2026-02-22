@@ -10,4 +10,4 @@ This plugin is a simple TDMS waveform creator. It allows to:
 ## Software Dependencies
 
 *   InstrumentStudio Pro (2025 Q4 or higher)
-*   LabVIEW 2025
+*   LabVIEW (2025 Q4 or higher)
