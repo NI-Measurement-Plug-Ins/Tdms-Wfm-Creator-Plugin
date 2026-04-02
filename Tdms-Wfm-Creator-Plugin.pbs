@@ -255,7 +255,7 @@
             <CustomExecutes />
             <Description>A Instrument Studio Plugin to create simple TDMS waveform by adding standard or arbitrary waveform</Description>
             <DisplayName>Tdms-Waveform-Creator-Plugin</DisplayName>
-            <FileName>tdms-waveform-creator-plugin_1.0.6.0_windows_x64.nipkg</FileName>
+            <FileName>tdms-waveform-creator-plugin_1.0.6.1_windows_x64.nipkg</FileName>
             <Homepage>https://github.com/NI-Measurement-Plug-Ins/Tdms-Wfm-Creator-Plugin</Homepage>
             <MaintainerEmail>email@mycompany.com</MaintainerEmail>
             <MaintainerName>GitHub Community</MaintainerName>
@@ -274,10 +274,11 @@
             <ProductName>MyProduct-2</ProductName>
             <ReleaseNotes>Support adding Sine, Cosine, Triangle, Square, Sawtooth, Ramp and DC Value as standard waveform.
 Support adding CSV, TDMS and TDMS file as arbitrary waveform. 
-Support optionally adding Marker0InSeconds custom properties into TDMS waveform group, to be used by Fgen-ArbSeqMode-Plugin. </ReleaseNotes>
+Support optionally adding Marker0InSeconds custom properties into TDMS waveform group, to be used by Fgen-ArbSeqMode-Plugin. 
+Patch - Fix the wrong wfm size and duration info when adding pre and post delay in std wfm. </ReleaseNotes>
             <Section>Add-Ons</Section>
             <Synopsis>Tdms-Waveform-Creator-Plugin</Synopsis>
-            <Version>1.0.6.0</Version>
+            <Version>1.0.6.1</Version>
         </Distribution>
     </Distributions>
     <Feeds />
