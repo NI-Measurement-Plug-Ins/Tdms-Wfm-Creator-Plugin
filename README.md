@@ -50,9 +50,6 @@ If you specify an existing TDMS file, the **RUN** action will behave differently
 - *Create/Replace Wfm Group* - if the TDMS file has the same *Wfm Group Name*, the existing one is deleted and replaced with the new one
 - *Create/New Wfm Group* - if the TDMS file has the same *Wfm Group Name*, the *Wfm Group Name* is renamed with a different number suffix that does not conflict with existing TDMS group names. For example, if *Wfm1* exists, it is renamed to *Wfm2* or higher as long as there is no conflict with the TDMS group name.
 
-### Optional: Setting Marker0 Location
-If the `Add Marker0?` checkbox is checked, a custom property called `Marker0InSeconds` is created under the TDMS `Group`. Use this to specify the timing of the Marker0 event when generating the waveform using the [NI FGEN Arbitrary Sequence Mode Plugin](https://github.com/NI-Measurement-Plug-Ins/Fgen-ArbSeqMode-Plugin). After modifying, click the **RUN** button to save it. 
-
 ## Software Dependencies
 
 *   InstrumentStudio Pro (2025 Q4 or higher)
